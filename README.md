@@ -1,26 +1,26 @@
 # Scratch Stars Academy
 
-Nền tảng giáo dục lập trình Scratch cho trẻ em và giáo viên.
+Scratch programming education platform for students and teachers.
 
-## Công nghệ sử dụng
+## Technologies used
 
 -   **Frontend:** React + Vite + TypeScript + Tailwind CSS + shadcn/ui
 -   **Backend:** Vercel Serverless Functions (TypeScript)
 -   **AI:** Groq LLM (llama-3.3-70b) + Pinecone Vector Database
 
-## Cài đặt
+## Setting
 
 ```bash
-# Cài đặt dependencies
+# Setting dependencies
 npm install
 
-# Chạy development server
+# Run development server
 npm run dev
 ```
 
-## Cấu hình môi trường
+## Environment Configuration
 
-Tạo file `.env` với nội dung:
+Create file `.env` with the content:
 
 ```
 GROQ_API_KEY=your_groq_api_key
