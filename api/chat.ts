@@ -41,7 +41,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     } catch (error) {
         console.error("Chat API error:", error);
         return res.status(500).json({
-            answer: "Xin lỗi, đã xảy ra lỗi khi xử lý câu hỏi của bạn.",
+            answer: "Sorry, an error occured while processing your question.",
         });
     }
 }
