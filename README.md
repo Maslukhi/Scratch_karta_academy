@@ -28,13 +28,13 @@ PINECONE_API_KEY=your_pinecone_api_key
 PINECONE_INDEX=scratch-academy
 ```
 
-## Ingest dữ liệu cho Chatbot
+## Ingest data for Chatbot
 
 ```bash
 npm run ingest
 ```
 
-## Deploy lên Vercel
+## Deploy go up Vercel
 
 ```bash
 vercel --prod
@@ -42,14 +42,14 @@ vercel --prod
 
 ## API Endpoints
 
-| Method | Endpoint         | Mô tả                    |
-| ------ | ---------------- | ------------------------ |
-| GET    | `/api/products`  | Lấy danh sách sản phẩm   |
-| GET    | `/api/resources` | Lấy danh sách tài nguyên |
-| POST   | `/api/messages`  | Gửi tin nhắn liên hệ     |
-| POST   | `/api/chat`      | Chat với AI Bot          |
+| Method | Endpoint         | Describe                       |
+| ------ | ---------------- | ------------------------       |
+| GET    | `/api/products`  | Retrieve the product list|
+| GET    | `/api/resources` | Retrieve the list of resources |
+| POST   | `/api/messages`  | Send a contact message         |
+| POST   | `/api/chat`      | Chat with AI Bot               |
 
-## Cấu trúc thư mục
+## Directory Structure
 
 ```
 ├── api/                # Vercel Serverless Functions
@@ -71,4 +71,4 @@ vercel --prod
 
 ---
 
-© 2025 Scratch Stars Academy
+© 2026 Scratch Karta Academy
